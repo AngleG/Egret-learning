@@ -1,0 +1,44 @@
+.container{ width: 100%; height: 100%; background: url(../resource/game_bg.png) no-repeat 50% 0; background-size: cover; }
+.container img{ width: 100%; }
+.container .helpBtn{ position: absolute; right: 15px; top: 15px; width: 54px; height: 32px; cursor: pointer; }
+
+.main{margin: 0 auto; padding-top: 10%;}
+.main .title{ width: 100%; text-align: center; z-index: 99; position: relative; bottom: -40px; left: 0;}
+.main .title span{ width: 290px; height: 84px;  z-index: 99;}
+.container .helpBtn,.main .title span,.container .car,.container .man{display: inline-block;}
+.container a{display: inline-block; position: absolute; bottom: 30px; left: 25px; width: 100px; height: 50px;}
+.container .car,.container .man{ position: absolute; }
+.container .car{ width: 136px; height: 118px; bottom: 5px; right: 50px; }
+.container .man{width: 100px; height: 198px; background: url(../resource/manStand.png) no-repeat 0 0; animation: man 0.5s steps(2) infinite; -webkit-animation: man 0.5s steps(2) infinite; -moz-animation: man 0.5s steps(2) infinite; bottom: 6px; right: -6px;}
+/*Popup*/
+.Popup{display: none;}
+.Popup p{text-align: center;}
+.Popup img{ width: 100%; }
+.Popup .popbg{padding: 0 20px;}
+.Popup .popbg .info{ position: absolute; left: 0; top: 0; padding: 80px 50px;}
+.Popup .close{ display: inline-block; width: 95px; height: 50px; margin-top: 20px; }
+
+@keyframes man{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: -200px 0;
+	}
+}
+@-webkit-keyframes man{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: -200px 0;
+	}
+}
+@-moz-keyframes man{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: -200px 0;
+	}
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>眼疾手快</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- 忽略页面中的数字识别为电话号码 -->
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+<div class="container">
+	<span class="helpBtn" id="helpBtn"><img src="../resource/help-btn.png"></span>
+	<div class="main">
+		<p class="title"><span><img src="../resource/title.png"></span></p>
+		<p class="box"><img src="../resource/login_bg.png"></p>
+	</div>
+	<a href="playgames.html"><img src="../resource/start.png"></a>
+	<span class="car"><img src="../resource/car.png"></span>
+	<span class="man"></span>
+</div>
+<!-- Popup -->
+<div id="Popup" class="Popup">
+	<div class="popbg">
+		<img src="../resource/pop_bg.png">
+		<span class="info"><img src="../resource/help_bg.png"></span>
+	</div>
+	<p><span id="close" class="close"><img src="../resource/ok.png"></span></p>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/layer.js"></script>
+<script type="text/javascript">
+	$(function () {
+		$('#helpBtn').click(function () {
+
+			var index = layer.open({
+				type: 1,
+				title: 0,
+				closeBtn: 0,
+				scrollbar: false,
+				shade: [0.8, "#000"],     //设置遮罩层背景
+				content: $('#Popup')
+			});
+			$('#close').click(function () {
+				layer.close(index);
+			});
+		});
+
+	});
+</script>
+</html>
