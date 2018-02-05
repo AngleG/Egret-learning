@@ -1,0 +1,403 @@
+{
+	"groups": [
+		{
+			"keys": "loading_bg_jpg,help-btn_png,share_png,got-it_png,close-btn_png,help_png,slide-up_png,help-bg_png,click-tips_png,help-title_png,hba_png,hbb_png,start_png,ribbon1_png,ribbon2_png,gold1_png,gold2_png,theme_png,hand_png,hb-rain_png,time1_png,time2_png,time3_png,time4_png,time5_png,time-circle1_png,time-circle2_png,gold-rain_png,count1_png,count2_png,count3_png,count4_png,count5_png,count6_png,count7_png,count8_png,count9_png,count10_png,count11_png,count12_png,count13_png,count14_png,count16_png,count17_png,count18_png,count19_png,count20_png,cash_png,count15_png,count21_png,count22_png,count23_png,count24_png,count25_png,isGet_jpg,web_error_png,playAgain_png,gameOver_png,bg_jpg,erCode_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "100_png,288_png,1000_png,share_jpg,16800_png,88800_png,share-btn_png,reward-bg_png,btn-ok_png,hbtips_png,getHb-btn_png,getCoupon-btn_png,coupontips_png,light_png,link_png,1800_png",
+			"name": "reward"
+		},
+		{
+			"keys": "loading_bg_jpg,lingqu_jpg",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/loading/loading_bg.jpg",
+			"type": "image",
+			"name": "loading_bg_jpg"
+		},
+		{
+			"url": "assets/help-btn.png",
+			"type": "image",
+			"name": "help-btn_png"
+		},
+		{
+			"url": "assets/share.png",
+			"type": "image",
+			"name": "share_png"
+		},
+		{
+			"url": "assets/got-it.png",
+			"type": "image",
+			"name": "got-it_png"
+		},
+		{
+			"url": "assets/close-btn.png",
+			"type": "image",
+			"name": "close-btn_png"
+		},
+		{
+			"url": "assets/help.png",
+			"type": "image",
+			"name": "help_png"
+		},
+		{
+			"url": "assets/slide-up.png",
+			"type": "image",
+			"name": "slide-up_png"
+		},
+		{
+			"url": "assets/help-bg.png",
+			"type": "image",
+			"name": "help-bg_png"
+		},
+		{
+			"url": "assets/reward/share-btn.png",
+			"type": "image",
+			"name": "share-btn_png"
+		},
+		{
+			"url": "assets/reward/reward-bg.png",
+			"type": "image",
+			"name": "reward-bg_png"
+		},
+		{
+			"url": "assets/reward/btn-ok.png",
+			"type": "image",
+			"name": "btn-ok_png"
+		},
+		{
+			"url": "assets/reward/hbtips.png",
+			"type": "image",
+			"name": "hbtips_png"
+		},
+		{
+			"url": "assets/reward/getHb-btn.png",
+			"type": "image",
+			"name": "getHb-btn_png"
+		},
+		{
+			"url": "assets/reward/getCoupon-btn.png",
+			"type": "image",
+			"name": "getCoupon-btn_png"
+		},
+		{
+			"url": "assets/reward/coupontips.png",
+			"type": "image",
+			"name": "coupontips_png"
+		},
+		{
+			"url": "assets/reward/light.png",
+			"type": "image",
+			"name": "light_png"
+		},
+		{
+			"url": "assets/click-tips.png",
+			"type": "image",
+			"name": "click-tips_png"
+		},
+		{
+			"url": "assets/help-title.png",
+			"type": "image",
+			"name": "help-title_png"
+		},
+		{
+			"url": "assets/hba.png",
+			"type": "image",
+			"name": "hba_png"
+		},
+		{
+			"url": "assets/hbb.png",
+			"type": "image",
+			"name": "hbb_png"
+		},
+		{
+			"url": "assets/start.png",
+			"type": "image",
+			"name": "start_png"
+		},
+		{
+			"url": "assets/ribbon1.png",
+			"type": "image",
+			"name": "ribbon1_png"
+		},
+		{
+			"url": "assets/ribbon2.png",
+			"type": "image",
+			"name": "ribbon2_png"
+		},
+		{
+			"url": "assets/gold1.png",
+			"type": "image",
+			"name": "gold1_png"
+		},
+		{
+			"url": "assets/gold2.png",
+			"type": "image",
+			"name": "gold2_png"
+		},
+		{
+			"url": "assets/theme.png",
+			"type": "image",
+			"name": "theme_png"
+		},
+		{
+			"url": "assets/hand.png",
+			"type": "image",
+			"name": "hand_png"
+		},
+		{
+			"url": "assets/hb-rain.png",
+			"type": "image",
+			"name": "hb-rain_png"
+		},
+		{
+			"url": "assets/time1.png",
+			"type": "image",
+			"name": "time1_png"
+		},
+		{
+			"url": "assets/time2.png",
+			"type": "image",
+			"name": "time2_png"
+		},
+		{
+			"url": "assets/time3.png",
+			"type": "image",
+			"name": "time3_png"
+		},
+		{
+			"url": "assets/time4.png",
+			"type": "image",
+			"name": "time4_png"
+		},
+		{
+			"url": "assets/time5.png",
+			"type": "image",
+			"name": "time5_png"
+		},
+		{
+			"url": "assets/time-circle1.png",
+			"type": "image",
+			"name": "time-circle1_png"
+		},
+		{
+			"url": "assets/time-circle2.png",
+			"type": "image",
+			"name": "time-circle2_png"
+		},
+		{
+			"url": "assets/gold-rain.png",
+			"type": "image",
+			"name": "gold-rain_png"
+		},
+		{
+			"url": "assets/count1.png",
+			"type": "image",
+			"name": "count1_png"
+		},
+		{
+			"url": "assets/count2.png",
+			"type": "image",
+			"name": "count2_png"
+		},
+		{
+			"url": "assets/count3.png",
+			"type": "image",
+			"name": "count3_png"
+		},
+		{
+			"url": "assets/count4.png",
+			"type": "image",
+			"name": "count4_png"
+		},
+		{
+			"url": "assets/count5.png",
+			"type": "image",
+			"name": "count5_png"
+		},
+		{
+			"url": "assets/count6.png",
+			"type": "image",
+			"name": "count6_png"
+		},
+		{
+			"url": "assets/count7.png",
+			"type": "image",
+			"name": "count7_png"
+		},
+		{
+			"url": "assets/count8.png",
+			"type": "image",
+			"name": "count8_png"
+		},
+		{
+			"url": "assets/count9.png",
+			"type": "image",
+			"name": "count9_png"
+		},
+		{
+			"url": "assets/count10.png",
+			"type": "image",
+			"name": "count10_png"
+		},
+		{
+			"url": "assets/count11.png",
+			"type": "image",
+			"name": "count11_png"
+		},
+		{
+			"url": "assets/count12.png",
+			"type": "image",
+			"name": "count12_png"
+		},
+		{
+			"url": "assets/count13.png",
+			"type": "image",
+			"name": "count13_png"
+		},
+		{
+			"url": "assets/count14.png",
+			"type": "image",
+			"name": "count14_png"
+		},
+		{
+			"url": "assets/count16.png",
+			"type": "image",
+			"name": "count16_png"
+		},
+		{
+			"url": "assets/count17.png",
+			"type": "image",
+			"name": "count17_png"
+		},
+		{
+			"url": "assets/count18.png",
+			"type": "image",
+			"name": "count18_png"
+		},
+		{
+			"url": "assets/count19.png",
+			"type": "image",
+			"name": "count19_png"
+		},
+		{
+			"url": "assets/count20.png",
+			"type": "image",
+			"name": "count20_png"
+		},
+		{
+			"url": "assets/reward/cash.png",
+			"type": "image",
+			"name": "cash_png"
+		},
+		{
+			"url": "assets/count15.png",
+			"type": "image",
+			"name": "count15_png"
+		},
+		{
+			"url": "assets/count21.png",
+			"type": "image",
+			"name": "count21_png"
+		},
+		{
+			"url": "assets/count22.png",
+			"type": "image",
+			"name": "count22_png"
+		},
+		{
+			"url": "assets/count23.png",
+			"type": "image",
+			"name": "count23_png"
+		},
+		{
+			"url": "assets/count24.png",
+			"type": "image",
+			"name": "count24_png"
+		},
+		{
+			"url": "assets/count25.png",
+			"type": "image",
+			"name": "count25_png"
+		},
+		{
+			"url": "assets/error/isGet.jpg",
+			"type": "image",
+			"name": "isGet_jpg"
+		},
+		{
+			"url": "assets/error/web_error.png",
+			"type": "image",
+			"name": "web_error_png"
+		},
+		{
+			"url": "assets/reward/1800.png",
+			"type": "image",
+			"name": "1800_png"
+		},
+		{
+			"url": "assets/reward/16800.png",
+			"type": "image",
+			"name": "16800_png"
+		},
+		{
+			"url": "assets/reward/88800.png",
+			"type": "image",
+			"name": "88800_png"
+		},
+		{
+			"url": "assets/reward/link.png",
+			"type": "image",
+			"name": "link_png"
+		},
+		{
+			"url": "assets/playAgain.png",
+			"type": "image",
+			"name": "playAgain_png"
+		},
+		{
+			"url": "assets/gameOver.png",
+			"type": "image",
+			"name": "gameOver_png"
+		},
+		{
+			"url": "assets/reward/100.png",
+			"type": "image",
+			"name": "100_png"
+		},
+		{
+			"url": "assets/reward/288.png",
+			"type": "image",
+			"name": "288_png"
+		},
+		{
+			"url": "assets/reward/1000.png",
+			"type": "image",
+			"name": "1000_png"
+		},
+		{
+			"url": "assets/share.jpg",
+			"type": "image",
+			"name": "share_jpg"
+		},
+		{
+			"url": "assets/lingqu.jpg",
+			"type": "image",
+			"name": "lingqu_jpg"
+		},
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "erCode_jpg",
+			"type": "image",
+			"url": "assets/erCode.jpg"
+		}
+	]
+}
